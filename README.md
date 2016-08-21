@@ -1,5 +1,5 @@
 # Pokitdok-Mongo
-Extremely basic python code and instructions for making Poktidok API calls to dump JSON containing patient data to a MongoDB database. 
+Basic python code and instructions for making Poktidok API calls to dump JSON containing patient data to a MongoDB database. 
 
 Uploaded here for your reference and to potentially save 3-4 hours of your time, since this is a common task...
 
