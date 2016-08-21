@@ -19,7 +19,7 @@ See [Pokitdok's documemtation](https://platform.pokitdok.com/documentation/v4/#a
 
 It's recommended to use a fields.txt file to specify your columns with which you seek to export to CSV. Here's an example:
 
-'''
+```
 coverage.coinsurance.0.service_type_codes.0
 coverage.coinsurance.1.service_type_codes.0
 subscriber.first_name
@@ -27,10 +27,10 @@ subscriber.last_name
 subscriber.gender
 subscriber.birth_date
 subscriber.id
-'''
+```
 
 Then, in cmd or terminal make the call:
 
-'''
+```
 mongoexport --db MY_DB --collection MY_COLLECTION --type=csv --fieldFile fields.txt --out OUTPUT_NAME.csv
-'''
+```
