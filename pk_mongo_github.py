@@ -37,7 +37,7 @@ class PokitDotConnector():
 			"provider": {
 				# add your credentials
 				"organization_name": "[YOUR ORG]",
-				"npi": "[YOUR ORG'S NPI"
+				"npi": "[YOUR ORG'S NPI]"
 			},
 			"trading_partner_id": str(self.partner)
 }		)
@@ -83,8 +83,6 @@ class PokitDotConnector():
 		db_entry = json.loads(db_entry)
 		#add to elig collection in mongoDB
 		stored = db.elig.insert(db_entry)
-		#TODO: Fix (optional)
-		#print(stored.inserted_id)
 		
 		#write to txt file (for testing purposes)
 		
